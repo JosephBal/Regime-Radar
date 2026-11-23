@@ -12,7 +12,7 @@ TICKERS = ["SPY", "QQQ", "IWM", "TLT", "GLD", "XLK", "XLF", "XLE"]
 FRED_SERIES = {
     "vix": "VIXCLS",             # Volatility index
     "yield_curve": "T10Y2Y",     # 10-year minus 2-year Treasury spread
-    "credit_spread": "BAMLH0A0HYM2",  # High-yield bond spread
+    "credit_spread": "BAA10Y",  # High-yield bond spread
 }
 
 # Date range
