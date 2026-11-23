@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "regime-radar"
+version = "0.1.0"
+description = "Detects market regimes and shows how simple strategies perform in each one."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.12"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
